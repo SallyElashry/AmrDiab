@@ -1,0 +1,89 @@
+/*this is css code*/
+  #moving-text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: rgb(179, 30, 107);}
+
+body {
+  font-family: calibri, 'Times New Roman', Times, serif,serif;
+  margin: 0;
+  padding: 0;
+}
+body{ background-image: url(652f4cbc0ae7ccfb6a6537171c558e8a.jpg);
+  background-size: cover;
+}
+
+header {
+  background-color: #142185;
+  color: #050000;
+  padding: 20px;
+}
+
+nav ul {
+  list-style:symbols();
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: solid;
+}
+
+main {
+  margin: 20px;
+  color: #343d82;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #142185;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+#top-songs {
+  background-color: #020202;
+  padding: 20px;
+  color: #fdfdfd;
+}
+
+#top-songs h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#top-songs ol {
+  list-style: decimal;
+  margin: 0;
+  padding: 0;
+}
+
+#top-songs li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+#
+
+  

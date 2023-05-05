@@ -1,0 +1,91 @@
+<!DOCTYPE html>img src=
+<html lang="en">
+<head>
+  <link rel=" stylesheet"
+  href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amr Diab History</title>
+  
+</head>
+<body>
+
+
+  <header>
+    <h1>Amr Diab History</h1>
+    <nav>
+      <ul>
+        <li><a href="#early-life">Early Life</a></li>
+        <li><a href="#music-career">Music Career</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#personal-life">Personal Life</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="early-life">
+      <h2>Early Life</h2>
+      <p>Amr Diab was born on October 11, 1961 in Port Said, Egypt. He began singing and playing the piano at a young age, and later studied music at the Cairo Academy of Arts.</p>
+    </section>
+    
+    <section id="music-career">
+      <h2>Music Career</h2>
+      <p>Amr Diab began his music career in the 1980s, and quickly became one of the most popular singers in the Arab world. He has released over 30 albums, and has sold over 50 million records worldwide.</p>
+    </section>
+    
+    <section id="awards">
+      <h2>Awards</h2>
+      <p>Amr Diab has won numerous awards throughout his career, including seven World Music Awards, four African Music Awards, and six Arabian Music Awards.</p>
+    </section>
+    
+    <section id="personal-life">
+      <h2>Personal Life</h2>
+      <p>Amr Diab is married and has four children. He is known for his philanthropic work, and has established a foundation to help underprivileged children in Egypt.</p>
+    </section>
+    <section id="top-songs">
+        <h2>Top 10 Songs of Amr Diab</h2>
+        <ol>
+          <li> Nour El Ain </li>
+          <li> Tamally Maak </li>
+          <li> Ana Ayesh </li>
+          <li> Osad Einy </li>
+          <li> Amarain </li>
+          <li> Awedony </li>
+          <li> El Alem Allah </li>
+          <li> Bahebak Aktar </li>
+          <li> Khalik Maaya </li>
+          <li> Allah La Yehremny Menak </li>
+        </ol>
+      </section
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Amr Diab History</p>
+    <script src="script.js"></script>
+  </footer>
+  <div id="moving-text">Amr Diab is one of the most famous singer in the Arab world</div>
+  <script>
+		var text = document.getElementById("moving-text");
+		var position = 0;
+		var interval = setInterval(moveText, 10);
+
+		function moveText() {
+			position += 1;
+			text.style.left = position + "px";
+			if (position >= 500) {
+				clearInterval(interval);
+				setTimeout(function() {
+					text.style.left = "0px";
+					position = 0;
+					interval = setInterval(moveText, 10);
+				}, 1000);
+			}
+		}
+	</script>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
